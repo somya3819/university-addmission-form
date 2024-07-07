@@ -1,59 +1,51 @@
-<!--done-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Admission Form</title>
 </head>
+
 <body>
-    <div>
-    <h1 align="center">College Admission Form</h1>
-    </div>
-    <hr>
-    <form id="college-admission-form">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-        </div><br><br>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-        </div><br><br>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-        </div><br><br>
-        <div>
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-        </div><br><br>
-        <div>
-            <label for="comment">About Me:</label>
-            <textarea id="comment" name="comment"></textarea>
-        </div><br><br>
-        <div>
-            <label for="dob">D.O.B.:</label>
-            <input type="date" id="dob" name="dob">
-        </div><br><br>
-        <div>
-            <label for="subjects">Optional Subject:</label>
-            <select id="subjects" name="subjects">
-                <option value="math">Math</option>
-                <option value="science">Science</option>
-                <option value="history">History</option>
-            </select>
-        </div> <br><br>
-        <div>
-            <input type="checkbox" id="tnc" name="tnc">
-            <label for="tnc">I agree with all the terms & conditions.</label>
-        </div><br><br>
-        <div>
-            <input type="submit" value="Submit">
-        </div>
+    <h1><img src="/sem 3/uni_add_form/images/logo.jpg" width="80px" height="80px">College Admission Form</h1>
+    <form id="college-addimssion-form">
+        <label for="name">Name</label>
+        <input id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="email">Email</label>
+        <input id="email" placeholder="Enter your email">
+        <br><br>
+        <label for="password">Password</label>
+        <input id="password" placeholder="Enter password">
+        <br><br>
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender">
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender">
+        <br><br>
+        <label for="comment">About me</label>
+        <textarea id="comment"></textarea>
+        <br><br>
+        <label for="dob">D.O.B.</label>
+        <input id="dob" type="date">
+        <br><br>
+        <label for="subjects">Optional Subject</label>
+        <select id="subjects">
+            <option value="sports">Sports</option>
+            <option value="hindi">Hindi</option>
+            <option value="english">English</option>
+            <option value="ss">Social Science</option>
+        </select>
+        <br><br>
+        <label for="tnc"><input id="tnc" type="checkbox">I agree with all the terms & conditions</label>
+        <br><br>
+        <input type="submit" value="Submit">
+
+
     </form>
+
 </body>
+
 </html>
